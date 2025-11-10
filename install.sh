@@ -108,4 +108,4 @@ MaxFileSec=1week
 EOF
 systemctl restart systemd-journald 2>/dev/null || true
 
-echo "✅ 所有优化已完成，建议重启系统以确保完全生效。"
+echo "✅ 所有优化已完成。"
